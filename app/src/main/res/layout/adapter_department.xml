@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGhostWhite"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="@dimen/_5sdp">
+
+
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/ic_box"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"/>
+
+    <TextView
+        android:id="@+id/adapter_department_tvName"
+        style="@style/StyleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textColor="@color/colorPrimaryText"/>
+
+
+
+</LinearLayout>

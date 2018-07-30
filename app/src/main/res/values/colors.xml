@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B9814E</color>
+    <color name="colorPrimaryDark">#B9814E</color>
+    <color name="colorAccent">#B9814E</color>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreen">#77D43C</color>
+
+
+    <color name="colorPrimaryText">#333333</color>
+    <color name="colorSecondaryText">#C1C1C0</color>
+    <color name="colorIcon">#B9814E</color>
+    <color name="colorSearchBar">#F6F7FC</color>
+
+    <color name="colorGhostWhite">#FDFDFE</color>
+</resources>

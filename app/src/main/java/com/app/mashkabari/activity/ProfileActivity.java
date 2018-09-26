@@ -2,6 +2,7 @@ package com.app.mashkabari.activity;
 
 import android.content.Context;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 
 import com.app.mashkabari.R;
 
@@ -26,6 +27,15 @@ public class ProfileActivity extends BaseActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        toolbar.setTitle("");
+        getSupportActionBar().setTitle("");
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) // Press Back Icon
+        {
+            finish();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

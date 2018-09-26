@@ -118,6 +118,8 @@ public class HomeActivity extends BaseActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_cart) {
+            startActivity(new Intent(mContext,CartActivity.class));
+
             return true;
         }
 

@@ -90,7 +90,8 @@ public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.MyViewHolder
 
     @Override
     public int getItemCount() {
-        return products.size();
+        //return products.size();
+        return 2;
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {

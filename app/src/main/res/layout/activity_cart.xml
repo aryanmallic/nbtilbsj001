@@ -18,12 +18,13 @@
             android:layout_weight="1"/>
 
         <TextView
+            android:id="@+id/activity_cart_tvProceed"
             style="@style/StyleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="@dimen/_8sdp"
-            android:text="PROCEED"
+            android:text="Proceed"
             android:background="@color/colorGreen"
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/_14ssp" />

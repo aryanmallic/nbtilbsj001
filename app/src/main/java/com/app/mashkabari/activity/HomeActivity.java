@@ -135,9 +135,9 @@ public class HomeActivity extends BaseActivity
         if (id == R.id.nav_profile) {
             startActivity(new Intent(mContext,ProfileActivity.class));
         } else if (id == R.id.nav_cart) {
-
+            startActivity(new Intent(mContext,CartActivity.class));
         } else if (id == R.id.nav_order_history) {
-
+            startActivity(new Intent(mContext,OrderHistoryActivity.class));
         } else if (id == R.id.nav_setting) {
 
         }
